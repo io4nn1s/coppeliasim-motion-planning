@@ -4,7 +4,9 @@ A CoppeliaSim simulation demonstrating motion planning, collision avoidance and 
 
 The simulation implements a pick-and-place task in an industrial-style workspace, where a redundant 7-DOF manipulator plans collision-free motions around obstacles. Although the current implementation uses a Sawyer manipulator, the motion-planning approach is not fundamentally tied to this robot.
 
-![Simulation overview](/images/start_scene.png)
+<p align="center">
+  <img src="/images/start_scene.png" width="600">
+</p>
 
 ## Features
 
@@ -39,7 +41,9 @@ WAITING → PICKING → PLACING → SPAWNING
 
 When the simulation is started, a small UI window allows the user to select which object types should be spawned.
 
-![Object spawning UI](/images/start_menu.png)
+<p align="center">
+  <img src="/images/start_menu.png" width="300">
+</p>
 
 This allows different task branches to be tested without modifying the script between runs.
 
