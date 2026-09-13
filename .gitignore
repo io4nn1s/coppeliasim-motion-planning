@@ -1,0 +1,9 @@
+# Exclude Word documents
+*.docx
+*.doc
+../*.docx
+../*.doc
+
+# Exclude report figures
+.figures/
+../.figures/
